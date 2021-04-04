@@ -1,0 +1,27 @@
+.gradient-bg{
+	background: linear-gradient(to right, rgba(91,134,229, .92), rgba(54,209,220, .92));
+}
+
+.garis-bg{
+	background: #e0e0e0 url(../img/garis.png) repeat;
+}
+
+.garisbalik-bg{
+	background: #ffffff url(../img/garis2.png) repeat;
+}
+
+.bayangan{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.8);"
+}
+
+.img-bg{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+@media screen and (max-width: 900px){
+	.img-bg{
+		display: none;
+	}
+}
